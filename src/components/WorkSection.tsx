@@ -49,8 +49,9 @@ export function WorkSection() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
       >
+        <SectionTitle title="Selected Projects" />
         <div className="inline-block relative">
-          <span className="text-white/70 text-lg font-light italic">Selected Works</span>
+          <span className="text-white/70 text-lg font-light italic">Github Links</span>
           <span className="absolute -top-1 -right-4 text-xl text-[#859952]">*</span>
           <div className="h-[1px] w-full bg-gradient-to-r from-white/20 to-transparent mt-2"></div>
         </div>
@@ -75,7 +76,7 @@ export function WorkSection() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.2 }}
       >
-        <SectionTitle title="Experimentation" />
+        
         <div className="h-[1px] w-full max-w-md bg-gradient-to-r from-white/20 to-transparent mt-2"></div>
       </motion.div>
     </div>

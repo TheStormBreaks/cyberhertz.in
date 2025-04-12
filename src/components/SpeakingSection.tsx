@@ -41,7 +41,7 @@ export function SpeakingSection() {
         transition={{ duration: 0.5 }}
         className="mb-10"
       >
-        <SectionTitle title="Speaking" />
+        <SectionTitle title="Blog" />
         <div className="h-[1px] w-full max-w-md bg-gradient-to-r from-white/20 to-transparent mt-2" />
       </motion.div>
 

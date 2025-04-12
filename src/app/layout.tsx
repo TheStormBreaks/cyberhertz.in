@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Portfolio | Product Designer",
-  description: "Portfolio of a product designer who loves using cognitive psychology to humanize tech and solve people problems.",
+  title: "Somya | PORTFOLIO",
+  description: "Portfolio of an aspiring Data Scientist and Researcher",
 };
 
 export default function RootLayout({

@@ -9,22 +9,27 @@ export function WritingSection() {
   const articles = [
     {
       id: 1,
-      title: "If you can smart animate, you can animate",
+      title: "DS and ML - Stock Price Prediction",
       link: "#"
     },
     {
       id: 2,
-      title: "Behind the scenes of designing a design system component",
+      title: "Military Cybersecurity Research",
       link: "#"
     },
     {
       id: 3,
-      title: "Learnings as a UX Design Intern @ MakeMyTrip",
+      title: "Data Center Design and Development Concepts",
       link: "#"
     },
     {
       id: 4,
-      title: "A guide on building your portfolio using notion",
+      title: "App Dev - Shuchita",
+      link: "#"
+    },
+    {
+      id: 5,
+      title: "App Dev - FarmEasy",
       link: "#"
     }
   ]
@@ -37,7 +42,7 @@ export function WritingSection() {
         transition={{ duration: 0.5 }}
         className="mb-10"
       >
-        <SectionTitle title="Writing" />
+        <SectionTitle title="Project Documentations" />
         <div className="h-[1px] w-full max-w-md bg-gradient-to-r from-white/20 to-transparent mt-2"></div>
       </motion.div>
 
