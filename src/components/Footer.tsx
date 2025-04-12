@@ -18,7 +18,7 @@ export function Footer() {
           </p>
 
           <a href="mailto:example@example.com" className="text-2xl md:text-3xl block mb-10 hover:opacity-80 transition-opacity">
-            <span className="span-mail">m2somya@gmail.com •  somya@cyberhertz.com</span>
+            <span className="span-mail">m2somya@gmail.com •  somya@cyberhertz.in</span>
           </a>
 
 

@@ -77,12 +77,12 @@ export function Hero() {
       </motion.div>
 
       {/* Full width marquee */}
-      <div className="relative w-screen left-1/2 -translate-x-1/2 overflow-hidden">
-        <div className="animate-marquee whitespace-nowrap flex w-max">
-          <span className="text-3xl md:text-4xl mx-3 opacity-30 italic font-bold">Deploy - Design - Develop - Deploy - Design - Deploy - Design - Develop - Deploy - Design - Deploy - Design - Develop - Deploy - Design - Deploy - Design - Develop - Deploy - Design - Deploy - Design - Develop - Deploy - Design -</span>
-          <span className="text-3xl md:text-4xl mx-1 opacity-30 italic font-bold">Deploy - Design - Develop - Deploy - Design -</span>
-        </div>
-      </div>
+      {/*<div className="relative w-screen left-1/2 -translate-x-1/2 overflow-hidden"> */}
+        {/*<div className="animate-marquee whitespace-nowrap flex w-max"> */}
+         {/* <span className="text-3xl md:text-4xl mx-3 opacity-30 italic font-bold">Deploy - Design - Develop - Deploy - Design - Deploy - Design - Develop - Deploy - Design - Deploy - Design - Develop - Deploy - Design - Deploy - Design - Develop - Deploy - Design - Deploy - Design - Develop - Deploy - Design -</span> */}
+        {/*  <span className="text-3xl md:text-4xl mx-1 opacity-30 italic font-bold">Deploy - Design - Develop - Deploy - Design -</span> */}
+        {/*</div> */}
+      {/*</div>*/}
     </div>
   )
 }
