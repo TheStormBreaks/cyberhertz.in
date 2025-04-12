@@ -2,6 +2,7 @@
 
 import { ProjectCard } from "./ProjectCard"
 import { SectionTitle } from "./SectionTitle"
+import { motion } from "framer-motion"
 
 export function WorkSection() {
   // Sample project data
@@ -41,13 +42,22 @@ export function WorkSection() {
   ]
 
   return (
-    <div className="container mx-auto px-6 py-16">
-      <div className="mb-8">
-        <span className="text-white/50">Selected Works *</span>
-      </div>
+    <div className="container mx-auto px-4 py-16 max-w-6xl">
+      <motion.div
+        className="mb-10"
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5 }}
+      >
+        <div className="inline-block relative">
+          <span className="text-white/70 text-lg font-light italic">Selected Works</span>
+          <span className="absolute -top-1 -right-4 text-xl text-[#859952]">*</span>
+          <div className="h-[1px] w-full bg-gradient-to-r from-white/20 to-transparent mt-2"></div>
+        </div>
+      </motion.div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-        {projects.map(project => (
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-4">
+        {projects.map((project, index) => (
           <ProjectCard
             key={project.id}
             title={project.title}
@@ -59,9 +69,15 @@ export function WorkSection() {
         ))}
       </div>
 
-      <div className="mt-16 mb-8">
+      <motion.div
+        className="mt-24 mb-10"
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5, delay: 0.2 }}
+      >
         <SectionTitle title="Experimentation" />
-      </div>
+        <div className="h-[1px] w-full max-w-md bg-gradient-to-r from-white/20 to-transparent mt-2"></div>
+      </motion.div>
     </div>
   )
 }
