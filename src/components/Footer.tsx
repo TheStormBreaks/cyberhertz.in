@@ -17,7 +17,7 @@ export function Footer() {
             Thank you for visiting and scrolling through my portfolio. If you want to talk about any of my projects, I'd love to hear from you!
           </p>
 
-          <a href="mailto:example@example.com" className="text-2xl md:text-3xl block mb-10 hover:opacity-80 transition-opacity">
+          <a href="mailto:example@example.com" className="text-2xl md:text-3xl block mb-10 hover:opacity-80 font-bold">
             <span className="span-mail">m2somya@gmail.com •  somya@cyberhertz.in</span>
           </a>
 
