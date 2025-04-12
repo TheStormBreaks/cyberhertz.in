@@ -23,12 +23,12 @@ export function Footer() {
 
 
           <div className="flex flex-wrap gap-x-8 gap-y-4 mb-16">
-            <Link href="#" className="social-media">Github</Link>
-            <Link href="#" className="social-media">LinkedIn</Link>
-            <Link href="#" className="social-media">Instagram</Link>
-            <Link href="#" className="social-media">Lineding - Cyberhertz.co</Link>
-            <Link href="#" className="social-media">Instagram - Cyberhertz</Link>
-            <Link href="#" className="social-media">www.cyberhertz.in</Link>
+            <Link href="https://github.com/TheStormBreaks" className="social-media">Github</Link>
+            <Link href="https://www.linkedin.com/in/thestormbreaks/" className="social-media">LinkedIn</Link>
+            <Link href="https://www.instagram.com/marvelesque.exe/" className="social-media">Instagram</Link>
+            <Link href="https://www.linkedin.com/in/cyberhertz/" className="social-media">LinkedIn - Cyberhertz.co</Link>
+            <Link href="https://www.instagram.com/cyberhertz.co/" className="social-media">Instagram - Cyberhertz</Link>
+            <Link href="www.cyberhertz.in/about" className="social-media">www.cyberhertz.in</Link>
           </div>
         </motion.div>
 
