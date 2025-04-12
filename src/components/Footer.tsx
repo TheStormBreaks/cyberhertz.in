@@ -28,7 +28,7 @@ export function Footer() {
             <Link href="https://www.instagram.com/marvelesque.exe/" className="social-media">Instagram</Link>
             <Link href="https://www.linkedin.com/in/cyberhertz/" className="social-media">LinkedIn - Cyberhertz.co</Link>
             <Link href="https://www.instagram.com/cyberhertz.co/" className="social-media">Instagram - Cyberhertz</Link>
-            <Link href="www.cyberhertz.in/about" className="social-media">www.cyberhertz.in</Link>
+            <Link href="https://www.cyberhertz.in/about" className="social-media">www.cyberhertz.in</Link>
           </div>
         </motion.div>
 
