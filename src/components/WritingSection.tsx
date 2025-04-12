@@ -10,17 +10,17 @@ export function WritingSection() {
     {
       id: 1,
       title: "DS and ML - Stock Price Prediction",
-      link: "#"
+      link: "resources/stock price predict.pdf"
     },
     {
       id: 2,
       title: "Military Cybersecurity Research",
-      link: "#"
+      link: "resources/Loitering_Munitions.pdf"
     },
     {
       id: 3,
       title: "Data Center Design and Development Concepts",
-      link: "#"
+      link: "resources/REPORT.pdf"
     },
     {
       id: 4,

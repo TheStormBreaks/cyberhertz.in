@@ -9,26 +9,26 @@ export function SpeakingSection() {
   const talks = [
     {
       id: 1,
-      title: "Motion Design System",
-      subtitle: "Oct. 2023 | Lightning Talk @ designMyx by Myntra",
+      title: "My Linux Update",
+      subtitle: "Apr. 2025 | Switching to Linux for Quantum Computing and CySec",
       link: "#"
     },
     {
       id: 2,
-      title: "Decoding Razorpay Design System",
-      subtitle: "Mar. 2024 | Online Session @ AOH Community",
+      title: "Quantum Computing",
+      subtitle: "Jan. 2025 | Working on some basic algorithms",
       link: "#"
     },
     {
       id: 3,
-      title: "Design Systems for Enterprise",
-      subtitle: "Apr. 2024 | Panel Discussion @ Geeky Ants",
+      title: "Competitive Programming",
+      subtitle: "Nov. 2024 | LeetCode update",
       link: "#"
     },
     {
       id: 4,
-      title: "Decoding Blade: The DS that powers Razorpay",
-      subtitle: "May 2024 | Online Session @ TGIF by 10k Designers",
+      title: "Potential Projects and GSOC",
+      subtitle: "Sept. 2024 | Online Session @ TGIF by 10k Designers",
       link: "#"
     }
   ]

@@ -9,35 +9,35 @@ export function WorkSection() {
   const projects = [
     {
       id: 1,
-      title: "Blade Design System",
-      description: "Building, maintaining and enhancing the design system that powers the products of Razorpay",
-      year: "2024",
-      imageUrl: "/images/project1.jpg",
-      link: "#"
+      title: "Stock Price Prediction of Google using ML and Statistics",
+      description: "Bult with py, tensorflow, scikit-learn and matplotlib. yfinance data set. ",
+      year: "2025",
+      imageUrl: "/images/project1.png",
+      link: "https://www.linkedin.com/posts/thestormbreaks_documentation-of-the-project-activity-7303469589957332992-oOm1?utm_source=share&utm_medium=member_desktop&rcm=ACoAADW6TokBTix0MB_H4gxTD7zhuVokK_JCnUs"
     },
     {
       id: 2,
-      title: "How to Reach Info for Host App",
-      description: "Flow designed to enable hosts to add nearby locations and direction details to their property easily and accurately",
-      year: "2021",
-      imageUrl: "/images/project2.jpg",
-      link: "#"
+      title: "Data Center Design and Management with Integrated BMS",
+      description: "Integration of CPMS, EMS and Security with BMS for monitoring. Complete design process of a DC. ",
+      year: "2024",
+      imageUrl: "/images/project2.png",
+      link: "resources/REPORT.pdf"
     },
     {
       id: 3,
-      title: "Polygon's Motion Design System v1.0",
-      description: "Built a standardized system for implementing consistent motion across the wide range of products",
-      year: "2021",
-      imageUrl: "/images/project3.jpg",
-      link: "#"
+      title: "Vulnerability Scanner",
+      description: "Checking vulnerability of a device, with result logging and download option. Built with Django and next.js",
+      year: "2023",
+      imageUrl: "/images/project3.png",
+      link: "https://github.com/TheStormBreaks/vulnerability-scanner"
     },
     {
       id: 4,
-      title: "Masterclass for Scribld Creative",
-      description: "App design for Scribld Creative - a conceptual edtech startup providing education in creative arts niche",
+      title: "Lyaounov Stability Analysis of a Double Pendulum System",
+      description: "Basic understanding and observation of Lyapunov Concepts using a chos system of Double Pendulum.",
       year: "2020",
-      imageUrl: "/images/project4.jpg",
-      link: "#"
+      imageUrl: "/images/project4.png",
+      link: "https://github.com/TheStormBreaks/lyapunov-stability-double-pendulum-"
     }
   ]
 

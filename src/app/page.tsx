@@ -7,7 +7,7 @@ import { Navigation } from "@/components/Navigation"
 import { SpeakingSection } from "@/components/SpeakingSection"
 import { WorkSection } from "@/components/WorkSection"
 import { WritingSection } from "@/components/WritingSection"
-import { CHcols } from "@/components/CHcols"
+
 
 export default function Home() {
   return (
@@ -18,7 +18,7 @@ export default function Home() {
       <WorkSection />
       <WritingSection />
       <SpeakingSection />
-      <CHcols />
+
       <Footer />
     </main>
   );
