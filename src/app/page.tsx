@@ -61,11 +61,11 @@ export default function Home() {
         >
           <h2 className="text-5xl md:text-6xl mb-6 section-title">Let's Connect!</h2>
           <p className="text-white/70 mb-8 max-w-2xl leading-relaxed">
-            Thank you for visiting and scrolling through my portfolio. If you want to talk about any of my projects, I'd love to hear from you!
+            Contact our team at cyberhertz
           </p>
 
           <a href="mailto:example@example.com" className="text-2xl md:text-3xl block mb-10 hover:opacity-80 font-bold">
-            <span className="span-mail">m2somya@gmail.com •  somya@cyberhertz.in</span>
+            <span className="span-mail">ceo@cyberhertz.in •  director@cyberhertz.in</span>
           </a>
 
 
