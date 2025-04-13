@@ -18,7 +18,7 @@ export function Navigation() {
             href="/"
             className={`navigation-item relative group ${pathname === '/' ? 'text-white' : 'text-white/70'} hover:text-white transition-colors`}
           >
-            <span className="header-link">Cyberhertz</span>
+            <span className="header-link">Portfolio</span>
             {pathname === '/' && <span className="absolute -bottom-1 left-0 w-full h-[2px] bg-white"></span>}
             <span className="absolute -bottom-1 left-0 w-0 h-[2px] bg-white group-hover:w-full transition-all duration-300"></span>
           </Link>
@@ -26,7 +26,7 @@ export function Navigation() {
             href="/about"
             className={`navigation-item relative group ${pathname === '/about' ? 'text-white' : 'text-white/70'} hover:text-white transition-colors`}
           >
-            <span className="header-link">Portfolio - Somya Jha</span>
+            <span className="header-link">Cyberhertz</span>
             {pathname === '/about' && <span className="absolute -bottom-1 left-0 w-full h-[2px] bg-white"></span>}
             <span className="absolute -bottom-1 left-0 w-0 h-[2px] bg-white group-hover:w-full transition-all duration-300"></span>
           </Link>

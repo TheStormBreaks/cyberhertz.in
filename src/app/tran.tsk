@@ -7,7 +7,7 @@ import { CustomCursor } from "@/components/CustomCursor"
 import { Footer } from "@/components/Footer"
 import { motion } from "framer-motion"
 
-export default function Home() {
+export default function About() {
   return (
     <main className="min-h-screen">
       <CustomCursor />
@@ -69,9 +69,7 @@ export default function Home() {
 
       
     </main>
-  );
-
-
-
-  
+  )
 }
+
+

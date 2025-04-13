@@ -6,10 +6,7 @@ import { Navigation } from "@/components/Navigation"
 import { CustomCursor } from "@/components/CustomCursor"
 import { Footer } from "@/components/Footer"
 import { motion } from "framer-motion"
-import {Hero} from "@/components/Hero"
-import { WorkSection } from "@/components/WorkSection"
-import { WritingSection} from "@/components/WritingSection"
-import { SpeakingSection } from "@/components/SpeakingSection"
+import {Hero} from "@components/Hero"
 
 export default function About() {
   return (
