@@ -37,7 +37,7 @@ export default function Home() {
               <div className="relative h-[320px] w-[720px] rounded-lg overflow-hidden shrink-0">
                 <Image
                   src="/images/brochure1.png"
-                  alt="Somya Jha"
+                  alt="CH"
                   fill
                   className="object-cover"
                 />
@@ -47,7 +47,7 @@ export default function Home() {
               <div className="relative h-[320px] w-[720px] rounded-lg overflow-hidden shrink-0">
                 <Image
                   src="/images/brochure2.png"
-                  alt="Somya Jha"
+                  alt="CH"
                   fill
                   className="object-cover"
                 />
@@ -64,10 +64,7 @@ export default function Home() {
               </div>
             </div>
 
-
-
-
-      
+     
     </main>
   );
 
