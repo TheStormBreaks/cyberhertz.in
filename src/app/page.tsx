@@ -61,7 +61,7 @@ export default function Home() {
         >
           <h2 className="text-5xl md:text-6xl mb-6 section-title">Let's Connect!</h2>
           <p className="text-white/70 mb-8 max-w-2xl leading-relaxed">
-            Contact our team at cyberhertz
+            Mobile No: (+91) 92049-12711
           </p>
 
           <a href="mailto:example@example.com" className="text-2xl md:text-3xl block mb-10 hover:opacity-80 font-bold">
