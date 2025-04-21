@@ -65,14 +65,14 @@ export function Hero() {
               </svg>
             </span>
           </Link>
-          <Link href="/projects" className="px-4 py-2 rounded-full border border-zinc-700 text-white hover:bg-white/10 transition-colors text-sm group">
+          <a href="game/index.html" className="px-4 py-2 rounded-full border border-zinc-700 text-white hover:bg-white/10 transition-colors text-sm group">
             <span className="flex items-center gap-2">
-              My SCIENTIFIC SIMULATIONS
+              GAME!
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="group-hover:translate-x-1 transition-transform">
                 <path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path>
               </svg>
             </span>
-          </Link>
+          </a>
         </div>
       </motion.div>
 
